@@ -9,7 +9,7 @@ require '../../includes/session.php';
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Add Principal | BED Taguig</title>
+    <title>Add Student | BED Taguig</title>
 
     <?php include '../../includes/links.php'; ?>
 
@@ -29,7 +29,7 @@ require '../../includes/session.php';
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Add Principal</h1>
+                            <h1 class="m-0">Add Student</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
@@ -48,9 +48,9 @@ require '../../includes/session.php';
                     <div class="row justify-content-center">
                         <div class="col-md-6">
                             <div class="card">
-                                <form action="userData/ctrl.add.principal.php" enctype="multipart/form-data" method="POST">
+                                <form action="userData/ctrl.add.Student.php" enctype="multipart/form-data" method="POST">
                                     <div class="card-header">
-                                        <h3 class="card-title">Principal Info</h3>
+                                        <h3 class="card-title">Student Info</h3>
                                         <div class="card-tools">
                                         </div>
                                     </div>
@@ -62,7 +62,7 @@ require '../../includes/session.php';
                                                         alt="User profile picture" style="width: 145px; height: 145px; margin-bottom: 10px;">
                                                 </div>
                                                 <div class="row">
-                                                    <div class="form-group mr-auto ml-auto col-md-6>
+                                                    <div class="form-group mr-auto ml-auto col-md-6">
                                                         <div class="input-group">
                                                         <div class="custom-file">
                                                             <input type="file" class="custom-file-input" name="image" id="customFile">
@@ -136,16 +136,6 @@ require '../../includes/session.php';
                                                 </div>
                                                 <input type="password" class="form-control" name="password2"
                                                     placeholder="Confirm Password" required>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="row mb-4">
-                                        <div class="input-group col-sm-12 mb-2">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
-                                                </div>
-                                                <input type="password" class="form-control" name="password2"
-                                                    placeholder="Contact Number" required>
                                             </div>
                                         </div>
                                     </div>

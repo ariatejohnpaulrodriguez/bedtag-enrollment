@@ -102,6 +102,14 @@
                   <p>Teachers List</p>
                 </a>
               </li>
+              </a>
+              </li>
+              <li class="nav-item">
+                <a href="../super_admin/list.student.php" class="nav-link">
+                  <i class="far fa-file nav-icon"></i>
+                  <p>Students List</p>
+                </a>
+              </li>
             </ul>
           </li>
           <li class="nav-item">
@@ -147,6 +155,12 @@
                 <a href="../super_admin/add.teacher.php" class="nav-link">
                   <i class="far fa-user nav-icon"></i>
                   <p>Add Teacher</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../super_admin/add.student.php" class="nav-link">
+                  <i class="far fa-user nav-icon"></i>
+                  <p>Add Student</p>
                 </a>
               </li>
             </ul>

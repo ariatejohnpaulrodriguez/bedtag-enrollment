@@ -65,7 +65,7 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-user-check"></i>
                       </div>
-                      <a href="<?php echo $_SESSION['role']== "Registrar" ? "../student/list.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <a href="<?php echo $_SESSION['role']== "Registrar" ? "db.enrolled.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                   <!-- ./col -->
@@ -86,7 +86,7 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-exclamation-triangle"></i>
                       </div>
-                      <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <a href="<?php echo $_SESSION['role']== "Registrar" ? "db.pending.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                   <!-- ./col -->
@@ -107,7 +107,7 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-users"></i>
                       </div>
-                      <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <a href="<?php echo $_SESSION['role']== "Registrar" ? "db.new.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                   <!-- ./col -->
@@ -128,7 +128,7 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-users"></i>
                       </div>
-                      <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <a href="<?php echo $_SESSION['role']== "Registrar" ? "db.old.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                   <!-- ./col -->
@@ -149,7 +149,7 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-user-times"></i>
                       </div>
-                      <a href="<?php echo $_SESSION['role']== "Registrar" ? "../student/list.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <a href="<?php echo $_SESSION['role']== "Registrar" ? "db.disapproved.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                   <!-- ./col -->
